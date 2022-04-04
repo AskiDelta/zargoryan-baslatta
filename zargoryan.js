@@ -12,7 +12,7 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
         const image = document.createElement("img");
-        image.src = "https://i.imgur.com/Y7blfND.png";
+        image.src = "https://i.imgur.com/6QSCFst.png";
         image.onload = () => {
             image.style = `position: absolute; left: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
         };
